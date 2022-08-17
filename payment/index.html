@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+    <form action=/"file.php"></form>
+    <h1 class="main_heading"><b>Payment Form </b></h1>
+    <hr>
+    <h2>User Information</h2>
+    <p> Name -
+        <input type="text" placeholder="Vanshika Chandna">
+    </p>
+    <p>
+        <fieldset>
+            <legend>Gender</legend>
+            Male<input type="radio" id="Male" name="Gender" value="Male">
+            Female<input type="radio" id="Female" name="Gender" value="Female">
+        </fieldset>
+    </p>
+    <p>
+     Address-
+     <br>
+     <textarea placeholder="Enter your address" name="address" id="101" rows="5" cols="100"></textarea>
+    </p>
+    <p>
+        Email-
+        <input type="text" placeholder="abc@gmail.com">
+
+    </p>
+    <p>
+        Contact no-
+        <input type="text" placeholder="1234567890">
+    </p>
+    <P>
+        pincode-
+        <input type="text" placeholder="123456">
+        
+    </P>
+    <hr>
+    <h2>Payment Information</h2>
+    <p>
+        Card Type -
+        <select name ="Card Type" id="Card Type">
+            <option value="--select your card--"> --select your card--</option>
+            <option value="visa">Visa</option>
+            <option value="Master card">Master card</option>
+            <option value="Rupay">Rupay</option>
+        </select>
+    </p>
+    <p>
+        Card Number-
+        <input type="text" placeholder="xxxx xxxx xxxx xxxx">
+    </p>
+
+    <P>
+        Expiration Date-
+        <input type="date" placeholder="mm/yyyy">
+    </P>
+    <P>
+        cvv-
+        <input type="text" placeholder="123">
+    </P>
+    <br>
+    <input type="submit" value="Pay now">
+
+
+    </div>
+</body>
+</html>
